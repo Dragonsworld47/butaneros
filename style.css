@@ -42,7 +42,9 @@ p {
 }
 
 img {
-  max-width: 220px;
+  width: 200px;         /* All images same width */
+  height: 200px;        /* All images same height */
+  object-fit: cover;    /* Crop to fill the square */
   margin: 12px;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(30,30,30,0.22);
